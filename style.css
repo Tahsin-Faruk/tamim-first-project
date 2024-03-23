@@ -30,11 +30,6 @@ body,
   margin-bottom: 20px;
 }
 
-/* .heading-text:hover {
-  color: royalblue;
-  background-color: burlywood;
-} */
-
 /* recipe-description */
 .recipe-description {
   font-size: 20px;
@@ -57,7 +52,7 @@ body,
 
 .preparation-section ul {
   padding: 0px 25px;
-  padding-top: ;
+  padding-top: 10px;
 }
 
 .preparation-section ul li {
@@ -74,7 +69,7 @@ body,
 }
 
 /* instructions-section */
-.instructions-section h1 {
+.ingredients-section h1 {
   color: hsl(14, 45%, 36%);
   font-family: recipeNameFont;
   font-weight: 300;
@@ -82,16 +77,16 @@ body,
   margin-bottom: 15px;
 }
 
-.instructions-section ul {
+.ingredients-section ul {
   padding: 0px 20px;
 }
 
-.instructions-section ul li {
+.ingredients-section ul li {
   margin-bottom: 15px;
   color: hsl(30, 10%, 34%);
 }
 
-.instructions-section ul li::marker {
+.ingredients-section ul li::marker {
   color: hsl(14, 45%, 36%);
 }
 
