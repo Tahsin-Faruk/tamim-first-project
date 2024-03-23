@@ -4,6 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- outfit font form google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--  -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- css -->
     <link rel="stylesheet" href="style.css" />
     <!-- displays site properly based on user's device -->
@@ -16,25 +33,6 @@
     />
 
     <title>Frontend Mentor | Recipe page</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      @font-face {
-        font-family: recipeNameFont;
-        src: url('./assets/fonts/young-serif/YoungSerif-Regular.ttf');
-      }
-      @font-face {
-        font-family: wholeText;
-        src: url('./assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
-      }
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body class="container">
     <!-- this is a desktop first design because TAMIM is a newbie -->
@@ -50,7 +48,7 @@
       </div>
     </header>
     <h1 class="heading-text">Simple Omelette Recipe</h1>
-    <p class="recipe-description">
+    <p class="details-txt texts-color">
       An easy and quick dish, perfect for any meal. This classic omelette
       combines beaten eggs cooked to perfection, optionally filled with your
       choice of cheese, vegetables, or meats.
@@ -58,29 +56,27 @@
 
     <section class="preparation-section">
       <h1>Preparation time</h1>
-      <ul>
+      <ul class="texts-color">
         <li>
           <span class="preparation-section-point">Total:</span>
-          <span class="preparation-section-point-text"
-            >Approximately 10 minutes</span
-          >
+          <span class="genuine-texts">Approximately 10 minutes</span>
         </li>
         <li>
           <span class="preparation-section-point">Preparation:</span>
-          <span class="preparation-section-point-text">5 minutes</span>
+          <span class="genuine-texts">5 minutes</span>
         </li>
         <li>
           <span class="preparation-section-point">Cooking:</span>
-          <span class="preparation-section-point-text">5 minutes</span>
+          <span class="genuine-texts">5 minutes</span>
         </li>
       </ul>
     </section>
 
     <!-- ingredients-section -->
     <section class="ingredients-section">
-      <h1>Ingredients</h1>
+      <h1 class="direction-txt">Ingredients</h1>
 
-      <ul>
+      <ul class="direction-list texts-color">
         <li>2-3 large eggs</li>
         <li>Salt, to taste</li>
         <li>Pepper, to taste</li>
@@ -90,39 +86,67 @@
         </li>
       </ul>
     </section>
+
+    <!-- horizontal-line -->
     <span class="horizontal-line">
       <hr />
     </span>
 
-    <section>
-      <h1>Instructions</h1>
-      <ol>
+    <!-- Instructions-section -->
+    <section class="instructions-section">
+      <h1 class="direction-txt">Instructions</h1>
+      <ol class="direction-list texts-color">
         <li>
-          Beat the eggs: In a bowl, beat the eggs with a pinch of salt and
-          pepper until they are well mixed. You can add a tablespoon of water or
-          milk for a fluffier texture.
+          <span class="preparation-section-point">Beat the eggs:</span>
+          <span class="genuine-texts">
+            In a bowl, beat the eggs with a pinch of salt and pepper until they
+            are well mixed. You can add a tablespoon of water or milk for a
+            fluffier texture.
+          </span>
         </li>
         <li>
-          Heat the pan: Place a non-stick frying pan over medium heat and add
-          butter or oil.
+          <span class="preparation-section-point">Heat the pan:</span>
+          <span class="genuine-texts">
+            Place a non-stick frying pan over medium heat and add butter or oil.
+          </span>
         </li>
         <li>
-          Cook the omelette: Once the butter is melted and bubbling, pour in the
-          eggs. Tilt the pan to ensure the eggs evenly coat the surface.
+          <span class="preparation-section-point">Cook the omelette:</span
+          ><span class="genuine-texts"
+            >Once the butter is melted and bubbling, pour in the eggs. Tilt the
+            pan to ensure the eggs evenly coat the surface.</span
+          >
         </li>
         <li>
-          Add fillings (optional): When the eggs begin to set at the edges but
-          are still slightly runny in the middle, sprinkle your chosen fillings
-          over one half of the omelette.
+          <span class="preparation-section-point"
+            >Add fillings (optional):</span
+          >
+          <span class="genuine-texts"
+            >When the eggs begin to set at the edges but are still slightly
+            runny in the middle, sprinkle your chosen fillings over one half of
+            the omelette.</span
+          >
         </li>
         <li>
-          Fold and serve: As the omelette continues to cook, carefully lift one
-          edge and fold it over the fillings. Let it cook for another minute,
-          then slide it onto a plate.
+          <span class="preparation-section-point">Fold and serve:</span>
+          <span class="genuine-texts"
+            >As the omelette continues to cook, carefully lift one edge and fold
+            it over the fillings. Let it cook for another minute, then slide it
+            onto a plate.</span
+          >
         </li>
-        <li>Enjoy: Serve hot, with additional salt and pepper if needed.</li>
+        <li>
+          <span class="preparation-section-point">Enjoy:</span>
+          <span>Serve hot, with additional salt and pepper if needed.</span>
+        </li>
       </ol>
     </section>
+
+    <!-- horizontal-line -->
+    <span class="horizontal-line">
+      <hr />
+    </span>
+
     <section>
       <h1>Nutrition</h1>
       <p>
